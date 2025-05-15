@@ -52,12 +52,12 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 1571588943 # Replace with the actual owner's user ID
+OWNER_ID = 6567162029 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [1003575883,1571588943]
+SUDO_USERS = [6567162029]
 
-AUTH_CHANNEL = -1002566117512
+AUTH_CHANNEL = -1002303981738
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
@@ -526,7 +526,7 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[𝗧𝘂𝘀𝗵𝗮𝗿](https://t.me/Tushar0125)"
+    credit = "️[𝐂𝐀 𝐈𝐧𝐭𝐞𝐫 𝐗](https://t.me/Inter_X_Admin_Bot)"
     if raw_text3 == '1':
         CR = '[𝗧𝘂𝘀𝗵𝗮𝗿](https://t.me/Tushar0125)'
     elif raw_text3:
